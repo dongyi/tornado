@@ -41,7 +41,7 @@ except ImportError:
 # json module is in the standard library as of python 2.6; fall back to
 # simplejson if present for older versions.
 try:
-    import json
+    import ujson as json
     assert hasattr(json, "loads") and hasattr(json, "dumps")
     _json_decode = json.loads
     _json_encode = json.dumps
