@@ -8,13 +8,6 @@ Tornado is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html).
 
 
-dong yi's fork
-----------------------
-
-这个版本针对tornado做一些定制
-比如tornado默认使用的json 我换成ujson
-
-
 Automatic installation
 ----------------------
 
